@@ -39,7 +39,7 @@ body {
 .info {
   text-align: center;
   padding: 200px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 .info h1 {
   font-size: 5em;
@@ -53,5 +53,11 @@ body {
   color: blueviolet;
   border: black solid;
 }
+
+* {
+  font-family: "Rubik Moonrocks", cursive;
+}
+
+/*  sass --watch styles/main.scss styles/css/styles.css */
 
 /*# sourceMappingURL=styles.css.map */
