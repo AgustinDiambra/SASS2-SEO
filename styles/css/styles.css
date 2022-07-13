@@ -34,6 +34,7 @@ body {
 
 .formulario {
   padding: 30px;
+  padding-bottom: 190px;
 }
 
 .info {
@@ -49,9 +50,34 @@ body {
   color: aliceblue;
 }
 
+h1 {
+  text-align: center;
+}
+
 .nav-item .here {
   color: blueviolet;
   border: black solid;
+}
+
+.lorem1, .lorem3, .lorem2 {
+  color: aliceblue;
+  box-sizing: 100px;
+  border-color: black;
+  text-align: center;
+  border-radius: 10px;
+  background-size: 100px;
+  background-color: black;
+  padding: 100px;
+  margin: 20px;
+  margin-top: 30px;
+}
+
+.lorem2 {
+  padding: 60px;
+}
+
+.lorem3 {
+  padding: 30px;
 }
 
 * {
