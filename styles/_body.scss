@@ -43,6 +43,9 @@ body {
 
   @media (max-width: 480px) {
     .info {
+      padding: 0px;
+      padding-bottom: 200px;
+      padding-top: 200px;
       text-align: center;
       color: rgb(255, 255, 255);
       h1 {
