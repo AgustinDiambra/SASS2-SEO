@@ -9,6 +9,7 @@
     optica, en donde nos define la calidad de nuestros productos por su alta durabilidad
     y estilos" >
     <link rel="stylesheet" href="../styles/css/styles.css">
+    <link rel="stylesheet" href="../styles/css/login.css">
     <!-- CSS onlY -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -49,26 +50,33 @@
     </div>
   </nav>
     <!-- navbar -->
-  <!--LOGIN-->
-  <div class="login1">
-  <form class="login">
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-  </div>
+  
 
+<!--prueba login-->
+<div class="login-container">
+  <div class="login-info-container">
+    <h1 class="title">Log in with</h1>
+    <div class="social-login">
+        <div class="social-login-element">
+            <img src="https://raw.githubusercontent.com/ederivc/LoginForm-HTML-CSS/9532600615c67763640acb948675adf3a726e00f/images/google.svg" alt="google-image">
+            <span>Google</span>
+        </div>
+        <div class="social-login-element">
+            <img src="https://raw.githubusercontent.com/ederivc/LoginForm-HTML-CSS/9532600615c67763640acb948675adf3a726e00f/images/facebook.svg" alt="facebook-image">
+            <span>Facebook</span>
+        </div>
+    </div>
+    <p>or</p>
+    <form class="inputs-container">
+        <input class="input" type="text" placeholder="Username">
+        <input class="input" type="text" placeholder="Password">
+        <p>Forgot password? <span class="span">Click here</span></p>
+        <button class="btn">login</button>
+        <p>Don't have an account? <span class="span">Sign Up</span></p>
+    </form>
+  </div>
+    <img class="image-container" src="https://raw.githubusercontent.com/ederivc/LoginForm-HTML-CSS/9532600615c67763640acb948675adf3a726e00f/images/login.svg" alt="">
+</div>
 
 
  <!--footer-->
