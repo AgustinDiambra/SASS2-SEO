@@ -46,6 +46,24 @@ body {
   font-size: 5em;
 }
 
+@media (max-width: 930px) {
+  .info {
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .info h1 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 480px) {
+  .info {
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .info h1 {
+    font-size: 0.5em;
+  }
+}
 .text-center {
   color: aliceblue;
 }
@@ -63,36 +81,26 @@ h1 {
 }
 
 .containergrid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, auto);
-}
-.containergrid .lorem1, .containergrid .lorem3, .containergrid .lorem2 {
-  grid-column: 1/2;
-  grid-row: 1/2;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-.containergrid .lorem2 {
-  grid-column: 2/4;
-  grid-row: 1/4;
-}
-.containergrid .lorem3 {
-  grid-column: 1/2;
-  grid-row: 2/4;
+  padding-bottom: 145px;
+  padding-top: 145px;
 }
 
-@media (max-width: 600px) {
+.contacc {
+  color: aliceblue;
+  padding: 20px;
+}
+
+@media (max-width: 1120px) {
   .containergrid {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
-.contact {
-  color: aliceblue;
-}
-
 .login1 {
   display: flex;
   justify-content: center;
@@ -139,24 +147,22 @@ h1 {
 }
 
 .lorem1, .lorem3, .lorem2 {
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   box-sizing: 100px;
   border-color: black;
   text-align: center;
   border-radius: 10px;
   background-size: 100px;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   padding: 100px;
   margin: 20px;
   margin-top: 30px;
-}
-
-.lorem2 {
-  padding: 60px;
-}
-
-.lorem3 {
-  padding: 30px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 * {

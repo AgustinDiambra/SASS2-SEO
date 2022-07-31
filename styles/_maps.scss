@@ -1,23 +1,30 @@
 .lorem1 {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     box-sizing: 100px;
     border-color: black;
     text-align: center;
     border-radius: 10px;
     background-size: 100px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     padding: 100px;
     margin: 20px;
     margin-top: 30px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center
+    
 }
 
 .lorem2 {
     @extend .lorem1;
-    padding: 60px;
+    
 }
 
 .lorem3 {
     @extend .lorem1;
-    padding: 30px;
+    
     
 }
