@@ -151,7 +151,31 @@ body {
  }
 
  */
- .mapa {
-   text-align: center;
-   padding: 20px;
- }
+
+ 
+  
+  .formulario{
+    padding: 0;
+    
+  }
+  .mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    padding: 20px;
+    
+  }
+
+  @media (max-width: 620px) {
+
+    .mapa {
+      display: flex;
+      justify-content: center;
+      
+    }
+  }
+
+
+
+ 

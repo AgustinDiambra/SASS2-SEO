@@ -8,12 +8,12 @@ footer {
   align-items: center;
   flex-direction: column;
   background-color: var(--dark);
-  color: rgb(250, 242, 242);
-  background-color: #111010;
+  color: rgb(5, 5, 5);
+  background-color: #ffffff;
 }
 footer .social-link {
   text-decoration: none;
-  color: rgb(204, 26, 174);
+  color: rgb(238, 5, 199);
 }
 
 * {
@@ -139,11 +139,24 @@ h1 {
 }
 
 */
+.formulario {
+  padding: 0;
+}
+
 .mapa {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
   padding: 20px;
 }
 
+@media (max-width: 620px) {
+  .mapa {
+    display: flex;
+    justify-content: center;
+  }
+}
 .nav-item .here {
   color: blueviolet;
   border: black solid;
